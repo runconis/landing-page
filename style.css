@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.header,
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(129, 52, 0);
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50px;
+    padding: 16px;
+    flex-shrink: 0;
+}
+
+.header-link {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-weight: 300;
+}
+
