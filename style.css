@@ -20,11 +20,15 @@ body {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
-    border-radius: 50px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 60%;
     padding: 16px;
     flex-shrink: 0;
+    transform: rotateY(180deg);
 }
 
 .header-link {
@@ -48,6 +52,7 @@ body {
 .hero-left,
 .hero-right {
     max-width: 500px;
+    padding-top: 25px;
     padding-bottom: 50px;
 }
 
@@ -67,9 +72,41 @@ h3 {
 .hero-button {
     background-color: rgb(224, 113, 9);
     padding: 12px;
-    width: 100px;
+    width: 150px;
     border-radius: 25px;
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 
+.under-hero {
+    background-color: white;
+    margin: 0 10%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    border-style: solid;
+    border-color: rgb(129, 52, 0);
+    width: 100px;
+    height: 100px;
+    padding: 32px;
+    margin: 32px;
+}
+
+.quote {
+    background-color: antiquewhite;
+    margin: 0 10%;
+}
