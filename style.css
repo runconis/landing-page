@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header,
@@ -64,7 +64,7 @@ h3 {
     font-weight: 100;
 }
 
-.hero-image {
+.hero-right img {
     max-width: 500px;
     border-radius: 25px;
 }
@@ -86,6 +86,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 h2 {
@@ -114,22 +115,76 @@ h2 {
     margin: 10px 20px 0px 20px;
 }
 
-/*
-.single-image-container {
-    border-style: solid;
-    border-color: rgb(129, 52, 0);
-    width: 100px;
-    height: 100px;
-    padding: 32px;
-    margin: 32px 32px 8px 32px;
-    border-radius: 10%;
-    background-image: url("./images/lowpoly-g55283fbe1_640.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 25%;
-} */
-
 .quote {
     background-color: antiquewhite;
     margin: 0 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: center;
+    padding-top: 36px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.quote b {
+    align-self: flex-end;
+    padding-right: 140px;
+    padding-bottom: 15px;
+}
+
+.action {
+    margin: 0 10%;
+    background-color: white;
+}
+
+.button-container {
+    background-color: rgb(129, 52, 0);
+    margin: 70px 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    padding: 40px 20px;
+}
+
+.button-container button {
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgb(129, 52, 0);
+    color: white;
+    width: 100px;
+    padding: 5px;
+}
+
+#call,
+#sign {
+    color: white;
+}
+
+#call {
+    font-weight: bolder;
+}
+
+.footer {
+    margin: 0 10%;
+    background-color: rgb(39, 16, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color:rgb(224, 113, 9);
 }
