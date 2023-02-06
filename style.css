@@ -102,8 +102,19 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
+.sub-container img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(129, 52, 0);
+    border-radius: 15px;
+    margin: 10px 20px 0px 20px;
+}
+
+/*
 .single-image-container {
     border-style: solid;
     border-color: rgb(129, 52, 0);
@@ -116,7 +127,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 25%;
-}
+} */
 
 .quote {
     background-color: antiquewhite;
